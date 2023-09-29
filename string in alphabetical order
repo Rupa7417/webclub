@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>String that has letters in alphabetical order</title>
+</head>
+<body>
+    <script>
+        function alphabet_order(str)
+  {
+return str.split('').sort().join('');
+  }
+console.log(alphabet_order("webmaster"));
+    </script>
+
+</body>
+</html>
