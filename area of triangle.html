@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>the area of a triangle</title>
+</head>
+<body>
+    <script>
+var sideA = 5;
+var sideB = 6;
+var sideC = 7;
+
+var s = (sideA + sideB + sideC) / 2;
+
+var area = Math.sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
+
+console.log("The area of the triangle is: " + area);
+</script>
+
+</body>
+</html>
